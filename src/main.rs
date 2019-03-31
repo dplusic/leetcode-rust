@@ -1,5 +1,5 @@
-mod n0849_maximize_distance_to_closest_person_2;
+mod n0911_online_election;
 
 fn main() {
-    n0849_maximize_distance_to_closest_person_2::run();
+    n0911_online_election::run();
 }

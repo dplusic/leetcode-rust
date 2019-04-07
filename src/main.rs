@@ -1,5 +1,5 @@
-mod n0900_rle_iterator;
+mod n0524_longest_word_in_dictionary_through_deleting;
 
 fn main() {
-    n0900_rle_iterator::run();
+    n0524_longest_word_in_dictionary_through_deleting::run();
 }

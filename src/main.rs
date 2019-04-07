@@ -1,5 +1,5 @@
-mod n0837_new_21_game;
+mod n0900_rle_iterator;
 
 fn main() {
-    n0837_new_21_game::run();
+    n0900_rle_iterator::run();
 }

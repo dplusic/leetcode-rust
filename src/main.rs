@@ -1,5 +1,5 @@
-mod n0731_my_calendar_ii;
+mod n0837_new_21_game;
 
 fn main() {
-    n0731_my_calendar_ii::run();
+    n0837_new_21_game::run();
 }

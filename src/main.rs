@@ -1,5 +1,5 @@
-mod n0457_circular_array_loop_2;
+mod n0679_24_game;
 
 fn main() {
-    n0457_circular_array_loop_2::run();
+    n0679_24_game::run();
 }

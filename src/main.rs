@@ -7,6 +7,7 @@ mod n0679_24_game;
 mod n0731_my_calendar_ii;
 mod n0837_new_21_game;
 mod n0849_maximize_distance_to_closest_person_2;
+mod n0850_rectangle_area_ii_2;
 mod n0900_rle_iterator;
 mod n0911_online_election;
 
@@ -26,6 +27,7 @@ fn main() {
         "731" => n0731_my_calendar_ii::run(),
         "837" => n0837_new_21_game::run(),
         "849" => n0849_maximize_distance_to_closest_person_2::run(),
+        "850" => n0850_rectangle_area_ii_2::run(),
         "900" => n0900_rle_iterator::run(),
         "911" => n0911_online_election::run(),
         _ => eprintln!("Not found: {}", problem_no),

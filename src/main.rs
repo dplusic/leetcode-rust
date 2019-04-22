@@ -1,5 +1,6 @@
 use std::env;
 
+mod n0056_merge_intervals;
 mod n0394_decode_string;
 mod n0457_circular_array_loop_2;
 mod n0524_longest_word_in_dictionary_through_deleting;
@@ -20,6 +21,7 @@ fn main() {
 
     let problem_no = args[1].as_str();
     match problem_no {
+        "56" => n0056_merge_intervals::run(),
         "394" => n0394_decode_string::run(),
         "457" => n0457_circular_array_loop_2::run(),
         "524" => n0524_longest_word_in_dictionary_through_deleting::run(),

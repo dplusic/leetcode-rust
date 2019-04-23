@@ -11,6 +11,7 @@ mod n0849_maximize_distance_to_closest_person_2;
 mod n0850_rectangle_area_ii_2;
 mod n0900_rle_iterator;
 mod n0911_online_election;
+mod n0943_find_the_shortest_superstring_fail;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -32,6 +33,7 @@ fn main() {
         "850" => n0850_rectangle_area_ii_2::run(),
         "900" => n0900_rle_iterator::run(),
         "911" => n0911_online_election::run(),
+        "943" => n0943_find_the_shortest_superstring_fail::run(),
         _ => eprintln!("Not found: {}", problem_no),
     }
 }
